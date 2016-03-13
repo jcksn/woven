@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9532" systemVersion="15A278b" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9530"/>
+    </dependencies>
+    <scenes>
+        <!--SplashVC-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="SplashVC" customModule="woven" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bg" translatesAutoresizingMaskIntoConstraints="NO" id="5nT-rt-m97">
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                            </imageView>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="6u2-qS-xKk">
+                                <rect key="frame" x="188" y="188" width="225" height="225"/>
+                                <subviews>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="logo" translatesAutoresizingMaskIntoConstraints="NO" id="FjZ-i6-FqL">
+                                        <rect key="frame" x="54" y="75" width="116" height="76"/>
+                                    </imageView>
+                                </subviews>
+                                <color key="backgroundColor" white="1" alpha="0.098923141891891886" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="225" id="6W8-2L-nA5"/>
+                                    <constraint firstAttribute="height" constant="225" id="iJq-lT-t99"/>
+                                </constraints>
+                            </view>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="TANTRIC SEX MEDITATION" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XwJ-u4-H7y">
+                                <rect key="frame" x="143" y="479" width="314" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="21" id="0k3-an-Ohf"/>
+                                    <constraint firstAttribute="width" constant="314" id="NKj-Bb-9AC"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="0.0" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gFG-vi-thJ">
+                                <rect key="frame" x="0.0" y="508" width="600" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="600" id="JhL-At-sxR"/>
+                                    <constraint firstAttribute="height" constant="30" id="qOV-xg-zzR"/>
+                                </constraints>
+                                <state key="normal" title="TANTRIC SEX MEDITATION">
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <segue destination="5nh-JV-Efg" kind="presentation" id="prT-r2-0WA"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="5nT-rt-m97" secondAttribute="trailing" id="0V2-5x-pwZ"/>
+                            <constraint firstItem="XwJ-u4-H7y" firstAttribute="top" secondItem="6u2-qS-xKk" secondAttribute="bottom" constant="66" id="7gD-y0-UeD"/>
+                            <constraint firstItem="6u2-qS-xKk" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="J4p-k4-Bsg"/>
+                            <constraint firstItem="6u2-qS-xKk" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="KLt-mE-0dz"/>
+                            <constraint firstItem="5nT-rt-m97" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="juJ-VZ-VtJ"/>
+                            <constraint firstItem="5nT-rt-m97" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="mMA-NC-OY5"/>
+                            <constraint firstItem="gFG-vi-thJ" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="ncp-mj-xsa"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="gFG-vi-thJ" secondAttribute="bottom" constant="62" id="oHM-Jl-vkP"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="5nT-rt-m97" secondAttribute="bottom" id="olx-8y-CUy"/>
+                            <constraint firstItem="XwJ-u4-H7y" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="rAJ-BM-KPT"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="bgRect" destination="6u2-qS-xKk" id="6pZ-gg-qg2"/>
+                        <outlet property="bgView" destination="5nT-rt-m97" id="URu-Cq-3PL"/>
+                        <outlet property="blurbText" destination="XwJ-u4-H7y" id="dIk-j7-YQj"/>
+                        <outlet property="logo" destination="FjZ-i6-FqL" id="eJh-Fo-y1J"/>
+                        <outlet property="playerButton" destination="gFG-vi-thJ" id="6zI-Xk-dUp"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="140" y="462"/>
+        </scene>
+        <!--Audio Controller-->
+        <scene sceneID="8Bv-Vp-OpZ">
+            <objects>
+                <viewController id="5nh-JV-Efg" customClass="AudioController" customModule="woven" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="dsy-vq-N63"/>
+                        <viewControllerLayoutGuide type="bottom" id="mHo-7u-R0K"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="13B-i1-159">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bg" translatesAutoresizingMaskIntoConstraints="NO" id="qcf-GA-MTH">
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="qcf-GA-MTH" secondAttribute="trailing" id="14s-Ok-nKw"/>
+                            <constraint firstItem="mHo-7u-R0K" firstAttribute="top" secondItem="qcf-GA-MTH" secondAttribute="bottom" id="Ndk-Rh-Uhr"/>
+                            <constraint firstItem="qcf-GA-MTH" firstAttribute="top" secondItem="13B-i1-159" secondAttribute="top" id="Sux-hn-SW8"/>
+                            <constraint firstItem="qcf-GA-MTH" firstAttribute="leading" secondItem="13B-i1-159" secondAttribute="leading" id="wyg-VN-l3n"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="7ph-gM-9Yd" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="808" y="462"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="bg" width="375" height="667"/>
+        <image name="logo" width="130" height="89"/>
+    </resources>
+</document>

@@ -1,0 +1,548 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1FEF13261C825BA100E4AE54 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FEF13251C825BA100E4AE54 /* AppDelegate.swift */; };
+		1FEF132B1C825BA100E4AE54 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1FEF13291C825BA100E4AE54 /* Main.storyboard */; };
+		1FEF132D1C825BA100E4AE54 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1FEF132C1C825BA100E4AE54 /* Assets.xcassets */; };
+		1FEF13301C825BA100E4AE54 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1FEF132E1C825BA100E4AE54 /* LaunchScreen.storyboard */; };
+		1FEF133B1C825BA100E4AE54 /* wovenTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FEF133A1C825BA100E4AE54 /* wovenTests.swift */; };
+		1FEF13461C825BA100E4AE54 /* wovenUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FEF13451C825BA100E4AE54 /* wovenUITests.swift */; };
+		1FEF13581C825DEC00E4AE54 /* SplashVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FEF13571C825DEC00E4AE54 /* SplashVC.swift */; };
+		1FEF135A1C8272A700E4AE54 /* Woven-Kern.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FEF13591C8272A700E4AE54 /* Woven-Kern.swift */; };
+		1FEF135E1C838C6D00E4AE54 /* AudioController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FEF135D1C838C6D00E4AE54 /* AudioController.swift */; };
+		1FEF13601C838D3F00E4AE54 /* Woven-Meditation-Track.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 1FEF135F1C838D3F00E4AE54 /* Woven-Meditation-Track.mp3 */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1FEF13371C825BA100E4AE54 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1FEF131A1C825BA100E4AE54 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1FEF13211C825BA100E4AE54;
+			remoteInfo = woven;
+		};
+		1FEF13421C825BA100E4AE54 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1FEF131A1C825BA100E4AE54 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1FEF13211C825BA100E4AE54;
+			remoteInfo = woven;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1FEF13221C825BA100E4AE54 /* woven.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = woven.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1FEF13251C825BA100E4AE54 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1FEF132A1C825BA100E4AE54 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1FEF132C1C825BA100E4AE54 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1FEF132F1C825BA100E4AE54 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1FEF13311C825BA100E4AE54 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1FEF13361C825BA100E4AE54 /* wovenTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = wovenTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1FEF133A1C825BA100E4AE54 /* wovenTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = wovenTests.swift; sourceTree = "<group>"; };
+		1FEF133C1C825BA100E4AE54 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1FEF13411C825BA100E4AE54 /* wovenUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = wovenUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1FEF13451C825BA100E4AE54 /* wovenUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = wovenUITests.swift; sourceTree = "<group>"; };
+		1FEF13471C825BA100E4AE54 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1FEF13571C825DEC00E4AE54 /* SplashVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SplashVC.swift; path = ../SplashVC.swift; sourceTree = "<group>"; };
+		1FEF13591C8272A700E4AE54 /* Woven-Kern.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "Woven-Kern.swift"; path = "Extensions/Woven-Kern.swift"; sourceTree = "<group>"; };
+		1FEF135D1C838C6D00E4AE54 /* AudioController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AudioController.swift; sourceTree = "<group>"; };
+		1FEF135F1C838D3F00E4AE54 /* Woven-Meditation-Track.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Woven-Meditation-Track.mp3"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1FEF131F1C825BA100E4AE54 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1FEF13331C825BA100E4AE54 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1FEF133E1C825BA100E4AE54 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1FEF13191C825BA100E4AE54 = {
+			isa = PBXGroup;
+			children = (
+				1FEF13241C825BA100E4AE54 /* woven */,
+				1FEF13391C825BA100E4AE54 /* wovenTests */,
+				1FEF13441C825BA100E4AE54 /* wovenUITests */,
+				1FEF13231C825BA100E4AE54 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1FEF13231C825BA100E4AE54 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1FEF13221C825BA100E4AE54 /* woven.app */,
+				1FEF13361C825BA100E4AE54 /* wovenTests.xctest */,
+				1FEF13411C825BA100E4AE54 /* wovenUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1FEF13241C825BA100E4AE54 /* woven */ = {
+			isa = PBXGroup;
+			children = (
+				1FEF135C1C8272B500E4AE54 /* Controller */,
+				1FEF135B1C8272AE00E4AE54 /* Extensions */,
+				1FEF13251C825BA100E4AE54 /* AppDelegate.swift */,
+				1FEF13291C825BA100E4AE54 /* Main.storyboard */,
+				1FEF132C1C825BA100E4AE54 /* Assets.xcassets */,
+				1FEF13611C838D4300E4AE54 /* Audio */,
+				1FEF132E1C825BA100E4AE54 /* LaunchScreen.storyboard */,
+				1FEF13311C825BA100E4AE54 /* Info.plist */,
+			);
+			path = woven;
+			sourceTree = "<group>";
+		};
+		1FEF13391C825BA100E4AE54 /* wovenTests */ = {
+			isa = PBXGroup;
+			children = (
+				1FEF133A1C825BA100E4AE54 /* wovenTests.swift */,
+				1FEF133C1C825BA100E4AE54 /* Info.plist */,
+			);
+			path = wovenTests;
+			sourceTree = "<group>";
+		};
+		1FEF13441C825BA100E4AE54 /* wovenUITests */ = {
+			isa = PBXGroup;
+			children = (
+				1FEF13451C825BA100E4AE54 /* wovenUITests.swift */,
+				1FEF13471C825BA100E4AE54 /* Info.plist */,
+			);
+			path = wovenUITests;
+			sourceTree = "<group>";
+		};
+		1FEF135B1C8272AE00E4AE54 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				1FEF13591C8272A700E4AE54 /* Woven-Kern.swift */,
+			);
+			name = Extensions;
+			sourceTree = "<group>";
+		};
+		1FEF135C1C8272B500E4AE54 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				1FEF13571C825DEC00E4AE54 /* SplashVC.swift */,
+				1FEF135D1C838C6D00E4AE54 /* AudioController.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		1FEF13611C838D4300E4AE54 /* Audio */ = {
+			isa = PBXGroup;
+			children = (
+				1FEF135F1C838D3F00E4AE54 /* Woven-Meditation-Track.mp3 */,
+			);
+			name = Audio;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1FEF13211C825BA100E4AE54 /* woven */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1FEF134A1C825BA100E4AE54 /* Build configuration list for PBXNativeTarget "woven" */;
+			buildPhases = (
+				1FEF131E1C825BA100E4AE54 /* Sources */,
+				1FEF131F1C825BA100E4AE54 /* Frameworks */,
+				1FEF13201C825BA100E4AE54 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = woven;
+			productName = woven;
+			productReference = 1FEF13221C825BA100E4AE54 /* woven.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1FEF13351C825BA100E4AE54 /* wovenTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1FEF134D1C825BA100E4AE54 /* Build configuration list for PBXNativeTarget "wovenTests" */;
+			buildPhases = (
+				1FEF13321C825BA100E4AE54 /* Sources */,
+				1FEF13331C825BA100E4AE54 /* Frameworks */,
+				1FEF13341C825BA100E4AE54 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1FEF13381C825BA100E4AE54 /* PBXTargetDependency */,
+			);
+			name = wovenTests;
+			productName = wovenTests;
+			productReference = 1FEF13361C825BA100E4AE54 /* wovenTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		1FEF13401C825BA100E4AE54 /* wovenUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1FEF13501C825BA100E4AE54 /* Build configuration list for PBXNativeTarget "wovenUITests" */;
+			buildPhases = (
+				1FEF133D1C825BA100E4AE54 /* Sources */,
+				1FEF133E1C825BA100E4AE54 /* Frameworks */,
+				1FEF133F1C825BA100E4AE54 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1FEF13431C825BA100E4AE54 /* PBXTargetDependency */,
+			);
+			name = wovenUITests;
+			productName = wovenUITests;
+			productReference = 1FEF13411C825BA100E4AE54 /* wovenUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1FEF131A1C825BA100E4AE54 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				TargetAttributes = {
+					1FEF13211C825BA100E4AE54 = {
+						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = W9R656M3L3;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+						};
+					};
+					1FEF13351C825BA100E4AE54 = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = 1FEF13211C825BA100E4AE54;
+					};
+					1FEF13401C825BA100E4AE54 = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = 1FEF13211C825BA100E4AE54;
+					};
+				};
+			};
+			buildConfigurationList = 1FEF131D1C825BA100E4AE54 /* Build configuration list for PBXProject "woven" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1FEF13191C825BA100E4AE54;
+			productRefGroup = 1FEF13231C825BA100E4AE54 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1FEF13211C825BA100E4AE54 /* woven */,
+				1FEF13351C825BA100E4AE54 /* wovenTests */,
+				1FEF13401C825BA100E4AE54 /* wovenUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1FEF13201C825BA100E4AE54 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1FEF13601C838D3F00E4AE54 /* Woven-Meditation-Track.mp3 in Resources */,
+				1FEF13301C825BA100E4AE54 /* LaunchScreen.storyboard in Resources */,
+				1FEF132D1C825BA100E4AE54 /* Assets.xcassets in Resources */,
+				1FEF132B1C825BA100E4AE54 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1FEF13341C825BA100E4AE54 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1FEF133F1C825BA100E4AE54 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1FEF131E1C825BA100E4AE54 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1FEF13261C825BA100E4AE54 /* AppDelegate.swift in Sources */,
+				1FEF13581C825DEC00E4AE54 /* SplashVC.swift in Sources */,
+				1FEF135E1C838C6D00E4AE54 /* AudioController.swift in Sources */,
+				1FEF135A1C8272A700E4AE54 /* Woven-Kern.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1FEF13321C825BA100E4AE54 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1FEF133B1C825BA100E4AE54 /* wovenTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1FEF133D1C825BA100E4AE54 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1FEF13461C825BA100E4AE54 /* wovenUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1FEF13381C825BA100E4AE54 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1FEF13211C825BA100E4AE54 /* woven */;
+			targetProxy = 1FEF13371C825BA100E4AE54 /* PBXContainerItemProxy */;
+		};
+		1FEF13431C825BA100E4AE54 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1FEF13211C825BA100E4AE54 /* woven */;
+			targetProxy = 1FEF13421C825BA100E4AE54 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1FEF13291C825BA100E4AE54 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1FEF132A1C825BA100E4AE54 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1FEF132E1C825BA100E4AE54 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1FEF132F1C825BA100E4AE54 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1FEF13481C825BA100E4AE54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1FEF13491C825BA100E4AE54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1FEF134B1C825BA100E4AE54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = woven/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jacksonfall.woven;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		1FEF134C1C825BA100E4AE54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = woven/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jacksonfall.woven;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		1FEF134E1C825BA100E4AE54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = wovenTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jacksonfall.wovenTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/woven.app/woven";
+			};
+			name = Debug;
+		};
+		1FEF134F1C825BA100E4AE54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = wovenTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jacksonfall.wovenTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/woven.app/woven";
+			};
+			name = Release;
+		};
+		1FEF13511C825BA100E4AE54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = wovenUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jacksonfall.wovenUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = woven;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		1FEF13521C825BA100E4AE54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = wovenUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jacksonfall.wovenUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = woven;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1FEF131D1C825BA100E4AE54 /* Build configuration list for PBXProject "woven" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1FEF13481C825BA100E4AE54 /* Debug */,
+				1FEF13491C825BA100E4AE54 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1FEF134A1C825BA100E4AE54 /* Build configuration list for PBXNativeTarget "woven" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1FEF134B1C825BA100E4AE54 /* Debug */,
+				1FEF134C1C825BA100E4AE54 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		1FEF134D1C825BA100E4AE54 /* Build configuration list for PBXNativeTarget "wovenTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1FEF134E1C825BA100E4AE54 /* Debug */,
+				1FEF134F1C825BA100E4AE54 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		1FEF13501C825BA100E4AE54 /* Build configuration list for PBXNativeTarget "wovenUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1FEF13511C825BA100E4AE54 /* Debug */,
+				1FEF13521C825BA100E4AE54 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1FEF131A1C825BA100E4AE54 /* Project object */;
+}
