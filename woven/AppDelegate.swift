@@ -12,10 +12,17 @@ import UIKit
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
-
-
+    
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
         // Override point for customization after application launch.
+        
+        // Set global appearances
+        UIApplication.sharedApplication().statusBarStyle = .LightContent
+        window?.backgroundColor = UIColor.blackColor()
+        UINavigationBar.appearance().setBackgroundImage(UIImage.init(), forBarMetrics: UIBarMetrics.Default);
+        UINavigationBar.appearance().shadowImage = UIImage.init();
+        UINavigationBar.appearance().backgroundColor = UIColor.clearColor();
+        UINavigationBar.appearance().tintColor = UIColor.whiteColor();
         return true
     }
 

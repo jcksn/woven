@@ -1,0 +1,736 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		046BC8DDAF8A8BB04BB275081499211A /* MotionAnimation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B32399A8D44DBED056F34A76533E4645 /* MotionAnimation.framework */; };
+		0B79D6A122BA5D96308BE799666BD0AF /* SpringValueAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3C4B82312229B31F3090192C3D6807F /* SpringValueAnimation.swift */; };
+		0E33A713A2975DA208F4BB3CD255EA8B /* ValueAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D7F66215808AC02DECEE25FB9003B0A /* ValueAnimation.swift */; };
+		170C69A862E42ECB6814BB33576DD492 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 49CB9A5D432565438968155961EA1624 /* Foundation.framework */; };
+		347AD8E02BA3A80B19E3C9D6D4F55F9D /* ElasticShapeLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47BED132CF0BA25424F098D682C688D3 /* ElasticShapeLayer.swift */; };
+		3CE15963BF5791059FD2391BCD6F562B /* EdgePanTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AB1204410EE102CAB125C6C51C5C35E /* EdgePanTransition.swift */; };
+		53283901B37B1015237BC27240056ABD /* LZPanGestureRecognizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03245D89950D2C9E29DBD52D80F4A661 /* LZPanGestureRecognizer.swift */; };
+		5878647AE10E937887A73B746F611183 /* MotionAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF1A5FCB33DF5F72356785DD1658963E /* MotionAnimation.swift */; };
+		6BE89484358E2D950BC60C3C3EDF3B99 /* ElasticTransition-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CA8417D1ACF896B3451C7CB667F2F1DD /* ElasticTransition-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6D325C4CB8205A0F8A1AECC2EE89C6DE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 49CB9A5D432565438968155961EA1624 /* Foundation.framework */; };
+		76F5E9C262F93E81EA9A9DA9601B16C5 /* MotionAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD8E7D1F52D3A7B20F0D354EB5132387 /* MotionAnimator.swift */; };
+		7F9A0D5397C36FAC9B336155D69C99DC /* MotionAnimation-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 07677E572015A22C532E9B7F367E84B2 /* MotionAnimation-dummy.m */; };
+		8488B1522CB30445CB5CEAA409F5705C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 21CE225DADE89FEC73C64C20ADE29816 /* UIKit.framework */; };
+		8775B2D2A241B7FC56ABCE804BCBAEE1 /* NSTimer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4360272FF1FF922FD6D818098CE38186 /* NSTimer.swift */; };
+		8AA1BF8F7C3D13032B1D6D9ED6F04887 /* time.swift in Sources */ = {isa = PBXBuildFile; fileRef = 572666311971F13A8B5BE1FBB8783BFB /* time.swift */; };
+		8BD62544AA0AB92B24C0FBACC43008E7 /* MotionAnimationPropertyState.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0A9A4D32BBD92D83F99649C22A92B99 /* MotionAnimationPropertyState.swift */; };
+		91632F5A27F2AE88950E6927347C9E75 /* Util.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64161486EDA1141C572DB546CE54F084 /* Util.swift */; };
+		A720910194FC19245495511557397263 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 49CB9A5D432565438968155961EA1624 /* Foundation.framework */; };
+		B5FCAE16B25AFFFFF39D9B746021335C /* MotionAnimation-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B6502CADB8DF07F7E82A316D8C7BF1C0 /* MotionAnimation-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C275F4C7CD5378328FFA449716113DC3 /* ElasticTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31D12C5D6FE8BD0C1008015C1FF1319B /* ElasticTransition.swift */; };
+		D4847674A3292383DFB1EF4FB8E01FB8 /* Types.swift in Sources */ = {isa = PBXBuildFile; fileRef = 302E29F7EB32FC16EC8AE59E3CEAC1F3 /* Types.swift */; };
+		DD76335B598F508F1C827F20D09CECFD /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 21CE225DADE89FEC73C64C20ADE29816 /* UIKit.framework */; };
+		E2370A8A8DE378F3B3B41F9C9BABE89E /* NSObject+MotionAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 129002B80332EF2E0DEFE34CCBA95A7A /* NSObject+MotionAnimation.swift */; };
+		EB714F32C707D95BEBC41CAA86196E82 /* Pods-woven-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C56827B4B9C1953534D0B05B23BF2F16 /* Pods-woven-dummy.m */; };
+		F1C26BADD383B9FCDDE4AD4284146566 /* Pods-woven-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E5C1BBA4D94DFABE53A04E6DAE596230 /* Pods-woven-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F31A236450EE6B1607BB62FB9621C07C /* CGPoint+Util.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AFBA7DF0C0063B7EE506EEBD85FA3DF /* CGPoint+Util.swift */; };
+		F4246BF7E41C4C68645E35782C68C055 /* ElasticTransition-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C284816F502A8B6D56C509D16E3D3733 /* ElasticTransition-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		492358C742E97E27E6CC6F617DAFC873 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 20EE510C33B653D0D39E8015461CA777;
+			remoteInfo = MotionAnimation;
+		};
+		9BE6C7A565934E27AB64CBF0FF5361F9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1C9674A8BF970C51C460F3C31A82CF1B;
+			remoteInfo = ElasticTransition;
+		};
+		E6E87040CB5740903485A1CA2F142EEA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 20EE510C33B653D0D39E8015461CA777;
+			remoteInfo = MotionAnimation;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		03245D89950D2C9E29DBD52D80F4A661 /* LZPanGestureRecognizer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LZPanGestureRecognizer.swift; path = MotionAnimation/LZPanGestureRecognizer.swift; sourceTree = "<group>"; };
+		07677E572015A22C532E9B7F367E84B2 /* MotionAnimation-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MotionAnimation-dummy.m"; sourceTree = "<group>"; };
+		0CA6E6046776D2FB81E4FFFAF718467B /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0F49F71F1168C4DDA096D0D8276593E9 /* MotionAnimation.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = MotionAnimation.modulemap; sourceTree = "<group>"; };
+		129002B80332EF2E0DEFE34CCBA95A7A /* NSObject+MotionAnimation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "NSObject+MotionAnimation.swift"; path = "MotionAnimation/NSObject+MotionAnimation.swift"; sourceTree = "<group>"; };
+		21CE225DADE89FEC73C64C20ADE29816 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		244A29016F037BE362A3A51B6D00482D /* MotionAnimation.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MotionAnimation.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		302E29F7EB32FC16EC8AE59E3CEAC1F3 /* Types.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Types.swift; path = MotionAnimation/Types.swift; sourceTree = "<group>"; };
+		30A22516AC40DC85C175D0A83F266D64 /* Pods-woven-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-woven-acknowledgements.plist"; sourceTree = "<group>"; };
+		31D12C5D6FE8BD0C1008015C1FF1319B /* ElasticTransition.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ElasticTransition.swift; path = ElasticTransition/ElasticTransition.swift; sourceTree = "<group>"; };
+		4360272FF1FF922FD6D818098CE38186 /* NSTimer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NSTimer.swift; path = MotionAnimation/NSTimer.swift; sourceTree = "<group>"; };
+		47BED132CF0BA25424F098D682C688D3 /* ElasticShapeLayer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ElasticShapeLayer.swift; path = ElasticTransition/ElasticShapeLayer.swift; sourceTree = "<group>"; };
+		49CB9A5D432565438968155961EA1624 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		54EBD3FF28EA8782C9D48B867B3AB645 /* ElasticTransition.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ElasticTransition.xcconfig; sourceTree = "<group>"; };
+		572666311971F13A8B5BE1FBB8783BFB /* time.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = time.swift; path = MotionAnimation/time.swift; sourceTree = "<group>"; };
+		64161486EDA1141C572DB546CE54F084 /* Util.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Util.swift; path = ElasticTransition/Util.swift; sourceTree = "<group>"; };
+		6AB1204410EE102CAB125C6C51C5C35E /* EdgePanTransition.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = EdgePanTransition.swift; path = ElasticTransition/EdgePanTransition.swift; sourceTree = "<group>"; };
+		7D7F66215808AC02DECEE25FB9003B0A /* ValueAnimation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ValueAnimation.swift; path = MotionAnimation/ValueAnimation.swift; sourceTree = "<group>"; };
+		7DF24A3293305334462FC59DA91D69B3 /* Pods-woven-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-woven-acknowledgements.markdown"; sourceTree = "<group>"; };
+		92B4508D387DF7C6CA657FC9C5BD31B2 /* ElasticTransition-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ElasticTransition-prefix.pch"; sourceTree = "<group>"; };
+		93559E57E727657835607E5AB14C81BB /* Pods-woven-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-woven-resources.sh"; sourceTree = "<group>"; };
+		977D00F9A8D41A43ABC36D04F193ABF1 /* Pods-woven.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-woven.release.xcconfig"; sourceTree = "<group>"; };
+		996A0AC02D2A638034C5A1B4EC9F7A83 /* Pods-woven.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-woven.modulemap"; sourceTree = "<group>"; };
+		9AFBA7DF0C0063B7EE506EEBD85FA3DF /* CGPoint+Util.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "CGPoint+Util.swift"; path = "MotionAnimation/CGPoint+Util.swift"; sourceTree = "<group>"; };
+		9B3BE4958388F5F284AC48D887A8B243 /* Pods-woven-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-woven-frameworks.sh"; sourceTree = "<group>"; };
+		9E5C38B8E09811C4375DA6BF0D7CA82E /* MotionAnimation.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MotionAnimation.xcconfig; sourceTree = "<group>"; };
+		AD2C0F86F16096CB0907A748E5A1DA3D /* Pods_woven.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_woven.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AD8E7D1F52D3A7B20F0D354EB5132387 /* MotionAnimator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MotionAnimator.swift; path = MotionAnimation/MotionAnimator.swift; sourceTree = "<group>"; };
+		B31C16C89F38333AAD3C261B66D13424 /* ElasticTransition.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = ElasticTransition.modulemap; sourceTree = "<group>"; };
+		B32399A8D44DBED056F34A76533E4645 /* MotionAnimation.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MotionAnimation.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B354982316F35B0BDDEA13998AA8AE22 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B3C4B82312229B31F3090192C3D6807F /* SpringValueAnimation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SpringValueAnimation.swift; path = MotionAnimation/SpringValueAnimation.swift; sourceTree = "<group>"; };
+		B6502CADB8DF07F7E82A316D8C7BF1C0 /* MotionAnimation-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MotionAnimation-umbrella.h"; sourceTree = "<group>"; };
+		B82DE3CFC78A5C93EFD27F2A7A6EDA65 /* ElasticTransition.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ElasticTransition.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		C284816F502A8B6D56C509D16E3D3733 /* ElasticTransition-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ElasticTransition-dummy.m"; sourceTree = "<group>"; };
+		C56827B4B9C1953534D0B05B23BF2F16 /* Pods-woven-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-woven-dummy.m"; sourceTree = "<group>"; };
+		C9FA82FAAFEF9E92B84C793C9166D3D4 /* MotionAnimation-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MotionAnimation-prefix.pch"; sourceTree = "<group>"; };
+		CA8417D1ACF896B3451C7CB667F2F1DD /* ElasticTransition-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ElasticTransition-umbrella.h"; sourceTree = "<group>"; };
+		E0A5CC7553977644325DD1102C7CE2C2 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E0A9A4D32BBD92D83F99649C22A92B99 /* MotionAnimationPropertyState.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MotionAnimationPropertyState.swift; path = MotionAnimation/MotionAnimationPropertyState.swift; sourceTree = "<group>"; };
+		E5C1BBA4D94DFABE53A04E6DAE596230 /* Pods-woven-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-woven-umbrella.h"; sourceTree = "<group>"; };
+		EF1A5FCB33DF5F72356785DD1658963E /* MotionAnimation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MotionAnimation.swift; path = MotionAnimation/MotionAnimation.swift; sourceTree = "<group>"; };
+		F1DDE433644214EEF883C5C5FC70603E /* Pods-woven.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-woven.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		22170695650BE2EA15ECB5423C3ED680 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6D325C4CB8205A0F8A1AECC2EE89C6DE /* Foundation.framework in Frameworks */,
+				046BC8DDAF8A8BB04BB275081499211A /* MotionAnimation.framework in Frameworks */,
+				8488B1522CB30445CB5CEAA409F5705C /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5C7DBBFC0EF3D53D56FE13C2F203734F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				170C69A862E42ECB6814BB33576DD492 /* Foundation.framework in Frameworks */,
+				DD76335B598F508F1C827F20D09CECFD /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6D29CD628F3487FC85563EC384E41ABD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A720910194FC19245495511557397263 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0010BA1BEF04252A1F28CDD5A7779CA4 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				04BDC919ACDEB73DCCED4340D9332F7D /* Pods-woven */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		04BDC919ACDEB73DCCED4340D9332F7D /* Pods-woven */ = {
+			isa = PBXGroup;
+			children = (
+				E0A5CC7553977644325DD1102C7CE2C2 /* Info.plist */,
+				996A0AC02D2A638034C5A1B4EC9F7A83 /* Pods-woven.modulemap */,
+				7DF24A3293305334462FC59DA91D69B3 /* Pods-woven-acknowledgements.markdown */,
+				30A22516AC40DC85C175D0A83F266D64 /* Pods-woven-acknowledgements.plist */,
+				C56827B4B9C1953534D0B05B23BF2F16 /* Pods-woven-dummy.m */,
+				9B3BE4958388F5F284AC48D887A8B243 /* Pods-woven-frameworks.sh */,
+				93559E57E727657835607E5AB14C81BB /* Pods-woven-resources.sh */,
+				E5C1BBA4D94DFABE53A04E6DAE596230 /* Pods-woven-umbrella.h */,
+				F1DDE433644214EEF883C5C5FC70603E /* Pods-woven.debug.xcconfig */,
+				977D00F9A8D41A43ABC36D04F193ABF1 /* Pods-woven.release.xcconfig */,
+			);
+			name = "Pods-woven";
+			path = "Target Support Files/Pods-woven";
+			sourceTree = "<group>";
+		};
+		2F39E4102D6F6D07E813CF98FDF4C510 /* MotionAnimation */ = {
+			isa = PBXGroup;
+			children = (
+				9AFBA7DF0C0063B7EE506EEBD85FA3DF /* CGPoint+Util.swift */,
+				03245D89950D2C9E29DBD52D80F4A661 /* LZPanGestureRecognizer.swift */,
+				EF1A5FCB33DF5F72356785DD1658963E /* MotionAnimation.swift */,
+				E0A9A4D32BBD92D83F99649C22A92B99 /* MotionAnimationPropertyState.swift */,
+				AD8E7D1F52D3A7B20F0D354EB5132387 /* MotionAnimator.swift */,
+				129002B80332EF2E0DEFE34CCBA95A7A /* NSObject+MotionAnimation.swift */,
+				4360272FF1FF922FD6D818098CE38186 /* NSTimer.swift */,
+				B3C4B82312229B31F3090192C3D6807F /* SpringValueAnimation.swift */,
+				572666311971F13A8B5BE1FBB8783BFB /* time.swift */,
+				302E29F7EB32FC16EC8AE59E3CEAC1F3 /* Types.swift */,
+				7D7F66215808AC02DECEE25FB9003B0A /* ValueAnimation.swift */,
+				FFBFF4C84D578E276D176B2E5D5445C5 /* Support Files */,
+			);
+			path = MotionAnimation;
+			sourceTree = "<group>";
+		};
+		4309583540F6F654F8DD19D33417D33B /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				49CB9A5D432565438968155961EA1624 /* Foundation.framework */,
+				21CE225DADE89FEC73C64C20ADE29816 /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		473061D500545F7D33CBB2BC9AC57AB9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B82DE3CFC78A5C93EFD27F2A7A6EDA65 /* ElasticTransition.framework */,
+				244A29016F037BE362A3A51B6D00482D /* MotionAnimation.framework */,
+				AD2C0F86F16096CB0907A748E5A1DA3D /* Pods_woven.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4B64C1DC751DDAD4DDE46FD9868A3ED4 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				663913CDBADBFBA34BB4499B02013908 /* ElasticTransition */,
+				2F39E4102D6F6D07E813CF98FDF4C510 /* MotionAnimation */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		618797BD87E0BCFB59677C2C6F1976C4 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				B31C16C89F38333AAD3C261B66D13424 /* ElasticTransition.modulemap */,
+				54EBD3FF28EA8782C9D48B867B3AB645 /* ElasticTransition.xcconfig */,
+				C284816F502A8B6D56C509D16E3D3733 /* ElasticTransition-dummy.m */,
+				92B4508D387DF7C6CA657FC9C5BD31B2 /* ElasticTransition-prefix.pch */,
+				CA8417D1ACF896B3451C7CB667F2F1DD /* ElasticTransition-umbrella.h */,
+				0CA6E6046776D2FB81E4FFFAF718467B /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/ElasticTransition";
+			sourceTree = "<group>";
+		};
+		663913CDBADBFBA34BB4499B02013908 /* ElasticTransition */ = {
+			isa = PBXGroup;
+			children = (
+				6AB1204410EE102CAB125C6C51C5C35E /* EdgePanTransition.swift */,
+				47BED132CF0BA25424F098D682C688D3 /* ElasticShapeLayer.swift */,
+				31D12C5D6FE8BD0C1008015C1FF1319B /* ElasticTransition.swift */,
+				64161486EDA1141C572DB546CE54F084 /* Util.swift */,
+				618797BD87E0BCFB59677C2C6F1976C4 /* Support Files */,
+			);
+			path = ElasticTransition;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */,
+				CB7AE1D83928E889E062A217743ABE6E /* Frameworks */,
+				4B64C1DC751DDAD4DDE46FD9868A3ED4 /* Pods */,
+				473061D500545F7D33CBB2BC9AC57AB9 /* Products */,
+				0010BA1BEF04252A1F28CDD5A7779CA4 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		CB7AE1D83928E889E062A217743ABE6E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B32399A8D44DBED056F34A76533E4645 /* MotionAnimation.framework */,
+				4309583540F6F654F8DD19D33417D33B /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FFBFF4C84D578E276D176B2E5D5445C5 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				B354982316F35B0BDDEA13998AA8AE22 /* Info.plist */,
+				0F49F71F1168C4DDA096D0D8276593E9 /* MotionAnimation.modulemap */,
+				9E5C38B8E09811C4375DA6BF0D7CA82E /* MotionAnimation.xcconfig */,
+				07677E572015A22C532E9B7F367E84B2 /* MotionAnimation-dummy.m */,
+				C9FA82FAAFEF9E92B84C793C9166D3D4 /* MotionAnimation-prefix.pch */,
+				B6502CADB8DF07F7E82A316D8C7BF1C0 /* MotionAnimation-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/MotionAnimation";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		736E05B2086E7065FD87E266FE41450E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6BE89484358E2D950BC60C3C3EDF3B99 /* ElasticTransition-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B09670A8C309F2238EAFF7DA78993F42 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B5FCAE16B25AFFFFF39D9B746021335C /* MotionAnimation-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C75BE9095F6FAE9DE83EEE5397BE3C1E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F1C26BADD383B9FCDDE4AD4284146566 /* Pods-woven-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		1C9674A8BF970C51C460F3C31A82CF1B /* ElasticTransition */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0F1EB8210C8A48D91EB2586F7C7073DB /* Build configuration list for PBXNativeTarget "ElasticTransition" */;
+			buildPhases = (
+				C6C38DD00BE405DC35FED1C1677DF659 /* Sources */,
+				22170695650BE2EA15ECB5423C3ED680 /* Frameworks */,
+				736E05B2086E7065FD87E266FE41450E /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				21340074627E3BC6728CD4C54BC3BF59 /* PBXTargetDependency */,
+			);
+			name = ElasticTransition;
+			productName = ElasticTransition;
+			productReference = B82DE3CFC78A5C93EFD27F2A7A6EDA65 /* ElasticTransition.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		20EE510C33B653D0D39E8015461CA777 /* MotionAnimation */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4C835B941F4EBBA3D45540C4EE9ED7B0 /* Build configuration list for PBXNativeTarget "MotionAnimation" */;
+			buildPhases = (
+				AB0DE51F65A8CBCA3E078AFD503DAF64 /* Sources */,
+				5C7DBBFC0EF3D53D56FE13C2F203734F /* Frameworks */,
+				B09670A8C309F2238EAFF7DA78993F42 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MotionAnimation;
+			productName = MotionAnimation;
+			productReference = 244A29016F037BE362A3A51B6D00482D /* MotionAnimation.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		D64D3C615BAF8D6E29A7401A2ECD4077 /* Pods-woven */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2E19F605C0517722DEB74683169BC96F /* Build configuration list for PBXNativeTarget "Pods-woven" */;
+			buildPhases = (
+				4181D3DBA8D063AA89F354B1630E50F4 /* Sources */,
+				6D29CD628F3487FC85563EC384E41ABD /* Frameworks */,
+				C75BE9095F6FAE9DE83EEE5397BE3C1E /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9E092B92077B33C026AAF85D54C30D19 /* PBXTargetDependency */,
+				462F9ADBFBCE8B7247DEBF0D844AC712 /* PBXTargetDependency */,
+			);
+			name = "Pods-woven";
+			productName = "Pods-woven";
+			productReference = AD2C0F86F16096CB0907A748E5A1DA3D /* Pods_woven.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0700;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 473061D500545F7D33CBB2BC9AC57AB9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1C9674A8BF970C51C460F3C31A82CF1B /* ElasticTransition */,
+				20EE510C33B653D0D39E8015461CA777 /* MotionAnimation */,
+				D64D3C615BAF8D6E29A7401A2ECD4077 /* Pods-woven */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4181D3DBA8D063AA89F354B1630E50F4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB714F32C707D95BEBC41CAA86196E82 /* Pods-woven-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB0DE51F65A8CBCA3E078AFD503DAF64 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F31A236450EE6B1607BB62FB9621C07C /* CGPoint+Util.swift in Sources */,
+				53283901B37B1015237BC27240056ABD /* LZPanGestureRecognizer.swift in Sources */,
+				7F9A0D5397C36FAC9B336155D69C99DC /* MotionAnimation-dummy.m in Sources */,
+				5878647AE10E937887A73B746F611183 /* MotionAnimation.swift in Sources */,
+				8BD62544AA0AB92B24C0FBACC43008E7 /* MotionAnimationPropertyState.swift in Sources */,
+				76F5E9C262F93E81EA9A9DA9601B16C5 /* MotionAnimator.swift in Sources */,
+				E2370A8A8DE378F3B3B41F9C9BABE89E /* NSObject+MotionAnimation.swift in Sources */,
+				8775B2D2A241B7FC56ABCE804BCBAEE1 /* NSTimer.swift in Sources */,
+				0B79D6A122BA5D96308BE799666BD0AF /* SpringValueAnimation.swift in Sources */,
+				8AA1BF8F7C3D13032B1D6D9ED6F04887 /* time.swift in Sources */,
+				D4847674A3292383DFB1EF4FB8E01FB8 /* Types.swift in Sources */,
+				0E33A713A2975DA208F4BB3CD255EA8B /* ValueAnimation.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C6C38DD00BE405DC35FED1C1677DF659 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3CE15963BF5791059FD2391BCD6F562B /* EdgePanTransition.swift in Sources */,
+				347AD8E02BA3A80B19E3C9D6D4F55F9D /* ElasticShapeLayer.swift in Sources */,
+				F4246BF7E41C4C68645E35782C68C055 /* ElasticTransition-dummy.m in Sources */,
+				C275F4C7CD5378328FFA449716113DC3 /* ElasticTransition.swift in Sources */,
+				91632F5A27F2AE88950E6927347C9E75 /* Util.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		21340074627E3BC6728CD4C54BC3BF59 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = MotionAnimation;
+			target = 20EE510C33B653D0D39E8015461CA777 /* MotionAnimation */;
+			targetProxy = E6E87040CB5740903485A1CA2F142EEA /* PBXContainerItemProxy */;
+		};
+		462F9ADBFBCE8B7247DEBF0D844AC712 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = MotionAnimation;
+			target = 20EE510C33B653D0D39E8015461CA777 /* MotionAnimation */;
+			targetProxy = 492358C742E97E27E6CC6F617DAFC873 /* PBXContainerItemProxy */;
+		};
+		9E092B92077B33C026AAF85D54C30D19 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ElasticTransition;
+			target = 1C9674A8BF970C51C460F3C31A82CF1B /* ElasticTransition */;
+			targetProxy = 9BE6C7A565934E27AB64CBF0FF5361F9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		49AE4CE802620518EB248B32BEDA78C3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F1DDE433644214EEF883C5C5FC70603E /* Pods-woven.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-woven/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-woven/Pods-woven.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_woven;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		8D1534490D941DCA47C62AC4314182AF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		B8B333C2A74F52595A629AC73504E6CB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 977D00F9A8D41A43ABC36D04F193ABF1 /* Pods-woven.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-woven/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-woven/Pods-woven.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_woven;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		C366304650D298B141CED4B0EA11802D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 54EBD3FF28EA8782C9D48B867B3AB645 /* ElasticTransition.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/ElasticTransition/ElasticTransition-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ElasticTransition/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/ElasticTransition/ElasticTransition.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = ElasticTransition;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		C5A18280E9321A9268D1C80B7DA43967 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DA6C581EC5005D75742FDE4EFCB525A3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9E5C38B8E09811C4375DA6BF0D7CA82E /* MotionAnimation.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/MotionAnimation/MotionAnimation-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/MotionAnimation/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/MotionAnimation/MotionAnimation.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = MotionAnimation;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		E4BB271CC4FD350E65EF05605A9C8117 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9E5C38B8E09811C4375DA6BF0D7CA82E /* MotionAnimation.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/MotionAnimation/MotionAnimation-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/MotionAnimation/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/MotionAnimation/MotionAnimation.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = MotionAnimation;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		F3476B032F2C93650135848C7AE918F5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 54EBD3FF28EA8782C9D48B867B3AB645 /* ElasticTransition.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/ElasticTransition/ElasticTransition-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ElasticTransition/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/ElasticTransition/ElasticTransition.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = ElasticTransition;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0F1EB8210C8A48D91EB2586F7C7073DB /* Build configuration list for PBXNativeTarget "ElasticTransition" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F3476B032F2C93650135848C7AE918F5 /* Debug */,
+				C366304650D298B141CED4B0EA11802D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8D1534490D941DCA47C62AC4314182AF /* Debug */,
+				C5A18280E9321A9268D1C80B7DA43967 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2E19F605C0517722DEB74683169BC96F /* Build configuration list for PBXNativeTarget "Pods-woven" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				49AE4CE802620518EB248B32BEDA78C3 /* Debug */,
+				B8B333C2A74F52595A629AC73504E6CB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4C835B941F4EBBA3D45540C4EE9ED7B0 /* Build configuration list for PBXNativeTarget "MotionAnimation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DA6C581EC5005D75742FDE4EFCB525A3 /* Debug */,
+				E4BB271CC4FD350E65EF05605A9C8117 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

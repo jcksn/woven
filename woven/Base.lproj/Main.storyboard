@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9532" systemVersion="15A278b" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9532" systemVersion="15D21" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9530"/>
@@ -53,7 +53,7 @@
                                     <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
                                 <connections>
-                                    <segue destination="5nh-JV-Efg" kind="presentation" id="prT-r2-0WA"/>
+                                    <segue destination="5nh-JV-Efg" kind="presentation" identifier="AudioControllerSegue" id="prT-r2-0WA"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -71,6 +71,9 @@
                             <constraint firstItem="XwJ-u4-H7y" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="rAJ-BM-KPT"/>
                         </constraints>
                     </view>
+                    <navigationItem key="navigationItem" id="gBb-Wz-GfY">
+                        <barButtonItem key="backBarButtonItem" title=" " id="l7F-rR-zOT"/>
+                    </navigationItem>
                     <connections>
                         <outlet property="bgRect" destination="6u2-qS-xKk" id="6pZ-gg-qg2"/>
                         <outlet property="bgView" destination="5nT-rt-m97" id="URu-Cq-3PL"/>
@@ -81,7 +84,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="140" y="462"/>
+            <point key="canvasLocation" x="864" y="462"/>
         </scene>
         <!--Audio Controller-->
         <scene sceneID="8Bv-Vp-OpZ">
@@ -98,19 +101,33 @@
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bg" translatesAutoresizingMaskIntoConstraints="NO" id="qcf-GA-MTH">
                                 <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                             </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="R2c-3M-FJf">
+                                <rect key="frame" x="268" y="268" width="64" height="64"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="64" id="28u-Va-TBq"/>
+                                    <constraint firstAttribute="height" constant="64" id="CfO-vL-MSM"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="50"/>
+                                <state key="normal" title="▶️"/>
+                            </button>
                         </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <color key="backgroundColor" red="0.015686274509803921" green="0.2196078431372549" blue="0.38823529411764707" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
                             <constraint firstAttribute="trailing" secondItem="qcf-GA-MTH" secondAttribute="trailing" id="14s-Ok-nKw"/>
                             <constraint firstItem="mHo-7u-R0K" firstAttribute="top" secondItem="qcf-GA-MTH" secondAttribute="bottom" id="Ndk-Rh-Uhr"/>
+                            <constraint firstItem="R2c-3M-FJf" firstAttribute="centerY" secondItem="13B-i1-159" secondAttribute="centerY" id="R4b-Ml-fTM"/>
                             <constraint firstItem="qcf-GA-MTH" firstAttribute="top" secondItem="13B-i1-159" secondAttribute="top" id="Sux-hn-SW8"/>
+                            <constraint firstItem="R2c-3M-FJf" firstAttribute="centerX" secondItem="13B-i1-159" secondAttribute="centerX" id="t9k-C6-BfD"/>
                             <constraint firstItem="qcf-GA-MTH" firstAttribute="leading" secondItem="13B-i1-159" secondAttribute="leading" id="wyg-VN-l3n"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="backgroundImage" destination="qcf-GA-MTH" id="fQZ-zY-irP"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="7ph-gM-9Yd" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="808" y="462"/>
+            <point key="canvasLocation" x="1593" y="462"/>
         </scene>
     </scenes>
     <resources>
