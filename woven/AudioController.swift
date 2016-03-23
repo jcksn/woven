@@ -16,7 +16,7 @@ class AudioController: UIViewController, ElasticMenuTransitionDelegate {
     
     @IBOutlet weak var backgroundImage: UIImageView!
     
-    var contentLength:CGFloat = (UIScreen.mainScreen().bounds.height / 4) * 3
+    var contentLength:CGFloat = (UIScreen.mainScreen().bounds.width / 4) * 3
     var dismissByBackgroundTouch = true
     var dismissByBackgroundDrag = true
     var dismissByForegroundDrag = true
@@ -24,7 +24,8 @@ class AudioController: UIViewController, ElasticMenuTransitionDelegate {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        self.backgroundImage.transform = CGAffineTransformConcat(CGAffineTransformMakeScale(-1, 1), CGAffineTransformMakeRotation(CGFloat(M_PI)))
+//        self.backgroundImage.transform = CGAffineTransformConcat(CGAffineTransformMakeScale(-1, 1), CGAffineTransformMakeRotation(CGFloat(M_PI)))
+        self.backgroundImage.transform = CGAffineTransformMakeScale(-1, 1);
         let path = NSBundle.mainBundle().pathForResource("Woven-Meditation-Track.mp3", ofType:nil)!
         let url = NSURL(fileURLWithPath: path)
         do {

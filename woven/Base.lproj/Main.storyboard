@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9532" systemVersion="15D21" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10116" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9530"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
     </dependencies>
     <scenes>
         <!--SplashVC-->
@@ -33,42 +34,76 @@
                                     <constraint firstAttribute="height" constant="225" id="iJq-lT-t99"/>
                                 </constraints>
                             </view>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="TANTRIC SEX MEDITATION" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XwJ-u4-H7y">
-                                <rect key="frame" x="143" y="479" width="314" height="21"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="21" id="0k3-an-Ohf"/>
-                                    <constraint firstAttribute="width" constant="314" id="NKj-Bb-9AC"/>
-                                </constraints>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <color key="textColor" red="1" green="1" blue="1" alpha="0.0" colorSpace="calibratedRGB"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gFG-vi-thJ">
-                                <rect key="frame" x="0.0" y="508" width="600" height="30"/>
+                                <rect key="frame" x="0.0" y="512" width="600" height="44"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="600" id="JhL-At-sxR"/>
-                                    <constraint firstAttribute="height" constant="30" id="qOV-xg-zzR"/>
+                                    <constraint firstAttribute="height" constant="44" id="qOV-xg-zzR"/>
                                 </constraints>
                                 <state key="normal" title="TANTRIC SEX MEDITATION">
                                     <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
-                                <connections>
-                                    <segue destination="5nh-JV-Efg" kind="presentation" identifier="AudioControllerSegue" id="prT-r2-0WA"/>
-                                </connections>
                             </button>
+                            <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" pagingEnabled="YES" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="Lgc-qi-TRx">
+                                <rect key="frame" x="0.0" y="150" width="600" height="300"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <collectionViewFlowLayout key="collectionViewLayout" scrollDirection="horizontal" minimumLineSpacing="10" minimumInteritemSpacing="10" id="wsC-f1-ZMU">
+                                    <size key="itemSize" width="379" height="306"/>
+                                    <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                                    <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                                    <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                </collectionViewFlowLayout>
+                                <cells>
+                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="OnboardCell" id="UEI-0n-Ob4">
+                                        <rect key="frame" x="0.0" y="-3" width="379" height="306"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                                            <rect key="frame" x="0.0" y="0.0" width="379" height="306"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="252" verticalCompressionResistancePriority="756" text="Testing BLURB" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="E3O-yD-5lB">
+                                                    <rect key="frame" x="8" y="277" width="363" height="21"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="21" id="coZ-Bq-6aG"/>
+                                                    </constraints>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <imageView userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="jacky" translatesAutoresizingMaskIntoConstraints="NO" id="SwR-O8-zC5">
+                                                    <rect key="frame" x="8" y="8" width="363" height="261"/>
+                                                </imageView>
+                                            </subviews>
+                                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                        </view>
+                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                        <constraints>
+                                            <constraint firstItem="E3O-yD-5lB" firstAttribute="top" secondItem="SwR-O8-zC5" secondAttribute="bottom" constant="8" id="5k1-Cl-XIk"/>
+                                            <constraint firstAttribute="trailing" secondItem="E3O-yD-5lB" secondAttribute="trailing" constant="8" id="F3U-oI-0Qq"/>
+                                            <constraint firstItem="E3O-yD-5lB" firstAttribute="leading" secondItem="UEI-0n-Ob4" secondAttribute="leading" constant="8" id="Mvi-Nu-kU7"/>
+                                            <constraint firstItem="SwR-O8-zC5" firstAttribute="leading" secondItem="UEI-0n-Ob4" secondAttribute="leading" constant="8" id="bn3-96-TFv"/>
+                                            <constraint firstItem="SwR-O8-zC5" firstAttribute="top" secondItem="UEI-0n-Ob4" secondAttribute="top" constant="8" id="eaj-yy-XNV"/>
+                                            <constraint firstAttribute="bottom" secondItem="E3O-yD-5lB" secondAttribute="bottom" constant="8" id="qPz-oY-AKe"/>
+                                            <constraint firstAttribute="trailing" secondItem="SwR-O8-zC5" secondAttribute="trailing" constant="8" id="zCD-oA-9uj"/>
+                                        </constraints>
+                                    </collectionViewCell>
+                                </cells>
+                            </collectionView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstAttribute="trailing" secondItem="5nT-rt-m97" secondAttribute="trailing" id="0V2-5x-pwZ"/>
-                            <constraint firstItem="XwJ-u4-H7y" firstAttribute="top" secondItem="6u2-qS-xKk" secondAttribute="bottom" constant="66" id="7gD-y0-UeD"/>
+                            <constraint firstItem="Lgc-qi-TRx" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="5HL-ZG-e1U"/>
+                            <constraint firstAttribute="trailing" secondItem="Lgc-qi-TRx" secondAttribute="trailing" id="Fmb-oU-f8i"/>
                             <constraint firstItem="6u2-qS-xKk" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="J4p-k4-Bsg"/>
                             <constraint firstItem="6u2-qS-xKk" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="KLt-mE-0dz"/>
+                            <constraint firstItem="Lgc-qi-TRx" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="TgM-NX-MHZ"/>
+                            <constraint firstItem="Lgc-qi-TRx" firstAttribute="height" secondItem="5nT-rt-m97" secondAttribute="height" multiplier="1:2" id="bct-8N-x8y"/>
                             <constraint firstItem="5nT-rt-m97" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="juJ-VZ-VtJ"/>
                             <constraint firstItem="5nT-rt-m97" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="mMA-NC-OY5"/>
                             <constraint firstItem="gFG-vi-thJ" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="ncp-mj-xsa"/>
-                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="gFG-vi-thJ" secondAttribute="bottom" constant="62" id="oHM-Jl-vkP"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="gFG-vi-thJ" secondAttribute="bottom" constant="44" id="oHM-Jl-vkP"/>
                             <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="5nT-rt-m97" secondAttribute="bottom" id="olx-8y-CUy"/>
-                            <constraint firstItem="XwJ-u4-H7y" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="rAJ-BM-KPT"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="gBb-Wz-GfY">
@@ -77,7 +112,7 @@
                     <connections>
                         <outlet property="bgRect" destination="6u2-qS-xKk" id="6pZ-gg-qg2"/>
                         <outlet property="bgView" destination="5nT-rt-m97" id="URu-Cq-3PL"/>
-                        <outlet property="blurbText" destination="XwJ-u4-H7y" id="dIk-j7-YQj"/>
+                        <outlet property="collection" destination="Lgc-qi-TRx" id="C45-eu-BMb"/>
                         <outlet property="logo" destination="FjZ-i6-FqL" id="eJh-Fo-y1J"/>
                         <outlet property="playerButton" destination="gFG-vi-thJ" id="6zI-Xk-dUp"/>
                     </connections>
@@ -127,11 +162,12 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="7ph-gM-9Yd" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1593" y="462"/>
+            <point key="canvasLocation" x="864" y="1232"/>
         </scene>
     </scenes>
     <resources>
         <image name="bg" width="375" height="667"/>
+        <image name="jacky" width="222" height="208"/>
         <image name="logo" width="130" height="89"/>
     </resources>
 </document>
