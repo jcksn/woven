@@ -20,7 +20,7 @@ class AudioController: UIViewController, ElasticMenuTransitionDelegate {
     var dismissByBackgroundTouch = true
     var dismissByBackgroundDrag = true
     var dismissByForegroundDrag = true
-
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
@@ -42,6 +42,7 @@ class AudioController: UIViewController, ElasticMenuTransitionDelegate {
             sound.play()
         } catch {
             // couldn't load file :(
+            
         }
     }
     

@@ -13,11 +13,12 @@
 		1FEF13301C825BA100E4AE54 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1FEF132E1C825BA100E4AE54 /* LaunchScreen.storyboard */; };
 		1FEF133B1C825BA100E4AE54 /* wovenTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FEF133A1C825BA100E4AE54 /* wovenTests.swift */; };
 		1FEF13461C825BA100E4AE54 /* wovenUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FEF13451C825BA100E4AE54 /* wovenUITests.swift */; };
-		1FEF13581C825DEC00E4AE54 /* SplashVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FEF13571C825DEC00E4AE54 /* SplashVC.swift */; };
+		1FEF13581C825DEC00E4AE54 /* SplashController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FEF13571C825DEC00E4AE54 /* SplashController.swift */; };
 		1FEF135A1C8272A700E4AE54 /* Woven-Kern.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FEF13591C8272A700E4AE54 /* Woven-Kern.swift */; };
 		1FEF135E1C838C6D00E4AE54 /* AudioController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FEF135D1C838C6D00E4AE54 /* AudioController.swift */; };
 		1FEF13601C838D3F00E4AE54 /* Woven-Meditation-Track.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 1FEF135F1C838D3F00E4AE54 /* Woven-Meditation-Track.mp3 */; };
 		AD9ED4863D28F4F6C1CA83B0 /* Pods_woven.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E49D37C1AFC3535BBAE6A181 /* Pods_woven.framework */; };
+		F8A78B241CCBD5B900CCC24B /* SplashCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8A78B231CCBD5B900CCC24B /* SplashCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,12 +51,13 @@
 		1FEF13411C825BA100E4AE54 /* wovenUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = wovenUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1FEF13451C825BA100E4AE54 /* wovenUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = wovenUITests.swift; sourceTree = "<group>"; };
 		1FEF13471C825BA100E4AE54 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		1FEF13571C825DEC00E4AE54 /* SplashVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SplashVC.swift; path = ../SplashVC.swift; sourceTree = "<group>"; };
+		1FEF13571C825DEC00E4AE54 /* SplashController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SplashController.swift; path = ../SplashController.swift; sourceTree = "<group>"; };
 		1FEF13591C8272A700E4AE54 /* Woven-Kern.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "Woven-Kern.swift"; path = "Extensions/Woven-Kern.swift"; sourceTree = "<group>"; };
 		1FEF135D1C838C6D00E4AE54 /* AudioController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AudioController.swift; sourceTree = "<group>"; };
 		1FEF135F1C838D3F00E4AE54 /* Woven-Meditation-Track.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Woven-Meditation-Track.mp3"; sourceTree = "<group>"; };
 		B88D25416BCE460378937B0E /* Pods-woven.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-woven.debug.xcconfig"; path = "Pods/Target Support Files/Pods-woven/Pods-woven.debug.xcconfig"; sourceTree = "<group>"; };
 		E49D37C1AFC3535BBAE6A181 /* Pods_woven.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_woven.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F8A78B231CCBD5B900CCC24B /* SplashCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SplashCell.swift; sourceTree = "<group>"; };
 		F9729913FF505C1776421BF3 /* Pods-woven.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-woven.release.xcconfig"; path = "Pods/Target Support Files/Pods-woven/Pods-woven.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -151,7 +153,8 @@
 		1FEF135C1C8272B500E4AE54 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
-				1FEF13571C825DEC00E4AE54 /* SplashVC.swift */,
+				1FEF13571C825DEC00E4AE54 /* SplashController.swift */,
+				F8A78B231CCBD5B900CCC24B /* SplashCell.swift */,
 				1FEF135D1C838C6D00E4AE54 /* AudioController.swift */,
 			);
 			name = Controller;
@@ -371,9 +374,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				1FEF13261C825BA100E4AE54 /* AppDelegate.swift in Sources */,
-				1FEF13581C825DEC00E4AE54 /* SplashVC.swift in Sources */,
+				1FEF13581C825DEC00E4AE54 /* SplashController.swift in Sources */,
 				1FEF135E1C838C6D00E4AE54 /* AudioController.swift in Sources */,
 				1FEF135A1C8272A700E4AE54 /* Woven-Kern.swift in Sources */,
+				F8A78B241CCBD5B900CCC24B /* SplashCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
