@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10116" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="HaR-1P-Iyb">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15G31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="HaR-1P-Iyb">
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
@@ -73,16 +73,6 @@
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="P0t-5B-ZDP">
                                 <rect key="frame" x="210" y="210" width="180" height="180"/>
                                 <subviews>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="oven" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hmB-KY-RJo">
-                                        <rect key="frame" x="40" y="88" width="100" height="36"/>
-                                        <constraints>
-                                            <constraint firstAttribute="height" constant="36" id="D0A-V1-aYI"/>
-                                            <constraint firstAttribute="width" constant="100" id="ZJd-G3-Akf"/>
-                                        </constraints>
-                                        <fontDescription key="fontDescription" type="system" pointSize="46"/>
-                                        <color key="textColor" red="0.99607843137254903" green="0.92549019607843142" blue="0.92156862745098034" alpha="1" colorSpace="calibratedRGB"/>
-                                        <nil key="highlightedColor"/>
-                                    </label>
                                     <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="logo" translatesAutoresizingMaskIntoConstraints="NO" id="8dS-iv-fqK">
                                         <rect key="frame" x="40" y="56" width="100" height="68"/>
                                         <constraints>
@@ -96,9 +86,7 @@
                                     <constraint firstAttribute="width" constant="180" id="72C-bX-cO7"/>
                                     <constraint firstItem="8dS-iv-fqK" firstAttribute="leading" secondItem="P0t-5B-ZDP" secondAttribute="leading" constant="40" id="Jbr-Z5-7u3"/>
                                     <constraint firstAttribute="bottom" secondItem="8dS-iv-fqK" secondAttribute="bottom" constant="56" id="Z1k-Qf-Vx5"/>
-                                    <constraint firstAttribute="trailing" secondItem="hmB-KY-RJo" secondAttribute="trailing" constant="40" id="exX-TN-XTL"/>
                                     <constraint firstAttribute="height" constant="180" id="med-Oa-TqW"/>
-                                    <constraint firstAttribute="bottom" secondItem="hmB-KY-RJo" secondAttribute="bottom" constant="56" id="zym-17-gIL"/>
                                 </constraints>
                             </view>
                             <pageControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" numberOfPages="3" translatesAutoresizingMaskIntoConstraints="NO" id="fg1-FZ-9ir">
@@ -152,7 +140,6 @@
                         <outlet property="logoViewWidth" destination="72C-bX-cO7" id="kCM-Gf-eGT"/>
                         <outlet property="pageControl" destination="fg1-FZ-9ir" id="SYP-4Z-Hby"/>
                         <outlet property="startButton" destination="x6c-Ta-DN5" id="D6m-Ph-YIa"/>
-                        <outlet property="titleLabel" destination="hmB-KY-RJo" id="qxy-ce-b1I"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
@@ -223,6 +210,6 @@
     </scenes>
     <resources>
         <image name="bg" width="375" height="667"/>
-        <image name="logo" width="130" height="89"/>
+        <image name="logo" width="203" height="153"/>
     </resources>
 </document>
