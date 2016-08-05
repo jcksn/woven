@@ -8,11 +8,10 @@
 
 import UIKit
 import AVFoundation
-import ElasticTransition
 
 var meditationPlayer: AVAudioPlayer!
 
-class AudioController: UIViewController, ElasticMenuTransitionDelegate {
+class AudioController: UIViewController {
     
     @IBOutlet weak var backgroundImage: UIImageView!
     

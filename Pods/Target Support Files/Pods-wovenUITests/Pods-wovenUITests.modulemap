@@ -1,0 +1,6 @@
+framework module Pods_wovenUITests {
+  umbrella header "Pods-wovenUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

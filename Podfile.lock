@@ -1,13 +1,12 @@
 PODS:
-  - ElasticTransition (2.2.0):
-    - MotionAnimation (~> 0.0.5)
-  - MotionAnimation (0.0.5)
+  - Advance (0.9.1)
 
 DEPENDENCIES:
-  - ElasticTransition
+  - Advance
 
 SPEC CHECKSUMS:
-  ElasticTransition: e5cd2b7d42497ba06cd928922690f335ab544a25
-  MotionAnimation: d9d4060bf4f494dd61bf868b8969a31b1b0b6f2a
+  Advance: 58f115c484cded634ffe529fcf6d39e741de1a44
 
-COCOAPODS: 0.39.0
+PODFILE CHECKSUM: bbfd9892315fea245ffc77f12a573cf83f3e3daa
+
+COCOAPODS: 1.0.1

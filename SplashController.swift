@@ -7,7 +7,6 @@
 //
 
 import UIKit
-//import ElasticTransition
 
 class SplashController: UIViewController, UICollectionViewDelegate, UICollectionViewDataSource, UICollectionViewDelegateFlowLayout {
 
@@ -33,6 +32,8 @@ class SplashController: UIViewController, UICollectionViewDelegate, UICollection
     //  Lifecycle
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        //  Onboarding pages
         pageTitles = ["Welcome to Woven", "Sexy Meditation, Flavio Approved", "Make America Great Again"]
         pageImages = ["meditate", "flavio", "america"]
         

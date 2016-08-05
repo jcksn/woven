@@ -4,7 +4,8 @@
 use_frameworks!
 
 target 'woven' do
-pod 'ElasticTransition'
+pod 'Advance'
+
 end
 
 target 'wovenTests' do

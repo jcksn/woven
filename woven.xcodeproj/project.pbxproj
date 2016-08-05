@@ -17,7 +17,18 @@
 		1FEF135A1C8272A700E4AE54 /* Woven-Kern.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FEF13591C8272A700E4AE54 /* Woven-Kern.swift */; };
 		1FEF135E1C838C6D00E4AE54 /* AudioController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FEF135D1C838C6D00E4AE54 /* AudioController.swift */; };
 		1FEF13601C838D3F00E4AE54 /* Woven-Meditation-Track.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 1FEF135F1C838D3F00E4AE54 /* Woven-Meditation-Track.mp3 */; };
-		AD9ED4863D28F4F6C1CA83B0 /* Pods_woven.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E49D37C1AFC3535BBAE6A181 /* Pods_woven.framework */; };
+		42B3A8FFB6319631797BADBF /* Pods_woven.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A19D5F34C03C02F8FDB09A43 /* Pods_woven.framework */; };
+		D9F489F58FA2A3F4C43F2378 /* Pods_wovenUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 768C0A5A8F256F3E3CE8490A /* Pods_wovenUITests.framework */; };
+		E0B3E9AABA849DA8B2175FCC /* Pods_wovenTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 35C844DF960D09DFA1E5AAE1 /* Pods_wovenTests.framework */; };
+		F828E60A1D5526FE00A3333B /* MeditationsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F828E6091D5526FE00A3333B /* MeditationsController.swift */; };
+		F828E60C1D55292400A3333B /* AudioFilesDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = F828E60B1D55292400A3333B /* AudioFilesDataSource.swift */; };
+		F8591F591D551E3000011562 /* CardsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8591F581D551E3000011562 /* CardsController.swift */; };
+		F8591F601D551EAF00011562 /* BrowserView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8591F5A1D551EAF00011562 /* BrowserView.swift */; };
+		F8591F611D551EAF00011562 /* CoverView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8591F5B1D551EAF00011562 /* CoverView.swift */; };
+		F8591F621D551EAF00011562 /* DemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8591F5C1D551EAF00011562 /* DemoViewController.swift */; };
+		F8591F631D551EAF00011562 /* DirectManipulationGestureRecognizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8591F5D1D551EAF00011562 /* DirectManipulationGestureRecognizer.swift */; };
+		F8591F641D551EAF00011562 /* ServicesController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8591F5E1D551EAF00011562 /* ServicesController.swift */; };
+		F8591F651D551EAF00011562 /* SimpleTransform.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8591F5F1D551EAF00011562 /* SimpleTransform.swift */; };
 		F8A78B241CCBD5B900CCC24B /* SplashCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8A78B231CCBD5B900CCC24B /* SplashCell.swift */; };
 /* End PBXBuildFile section */
 
@@ -39,6 +50,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0EF3E77886E9B37C01673FF3 /* Pods-wovenTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-wovenTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-wovenTests/Pods-wovenTests.debug.xcconfig"; sourceTree = "<group>"; };
 		1FEF13221C825BA100E4AE54 /* woven.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = woven.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1FEF13251C825BA100E4AE54 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1FEF132A1C825BA100E4AE54 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -55,10 +67,24 @@
 		1FEF13591C8272A700E4AE54 /* Woven-Kern.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "Woven-Kern.swift"; path = "Extensions/Woven-Kern.swift"; sourceTree = "<group>"; };
 		1FEF135D1C838C6D00E4AE54 /* AudioController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AudioController.swift; sourceTree = "<group>"; };
 		1FEF135F1C838D3F00E4AE54 /* Woven-Meditation-Track.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Woven-Meditation-Track.mp3"; sourceTree = "<group>"; };
-		B88D25416BCE460378937B0E /* Pods-woven.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-woven.debug.xcconfig"; path = "Pods/Target Support Files/Pods-woven/Pods-woven.debug.xcconfig"; sourceTree = "<group>"; };
-		E49D37C1AFC3535BBAE6A181 /* Pods_woven.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_woven.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2D84B54EF2F16E0044CD0846 /* Pods-wovenUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-wovenUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-wovenUITests/Pods-wovenUITests.release.xcconfig"; sourceTree = "<group>"; };
+		35C844DF960D09DFA1E5AAE1 /* Pods_wovenTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_wovenTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		768C0A5A8F256F3E3CE8490A /* Pods_wovenUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_wovenUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		93D0E0E9EE987DDC55EDB416 /* Pods-wovenUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-wovenUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-wovenUITests/Pods-wovenUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		A19D5F34C03C02F8FDB09A43 /* Pods_woven.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_woven.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AAA8ECDE0E5A3E8DA0CD068A /* Pods-woven.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-woven.debug.xcconfig"; path = "Pods/Target Support Files/Pods-woven/Pods-woven.debug.xcconfig"; sourceTree = "<group>"; };
+		CD10CAE4BC2ECBE84E746D09 /* Pods-wovenTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-wovenTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-wovenTests/Pods-wovenTests.release.xcconfig"; sourceTree = "<group>"; };
+		DAE5E18792029649B7889A29 /* Pods-woven.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-woven.release.xcconfig"; path = "Pods/Target Support Files/Pods-woven/Pods-woven.release.xcconfig"; sourceTree = "<group>"; };
+		F828E6091D5526FE00A3333B /* MeditationsController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MeditationsController.swift; sourceTree = "<group>"; };
+		F828E60B1D55292400A3333B /* AudioFilesDataSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AudioFilesDataSource.swift; sourceTree = "<group>"; };
+		F8591F581D551E3000011562 /* CardsController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CardsController.swift; sourceTree = "<group>"; };
+		F8591F5A1D551EAF00011562 /* BrowserView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BrowserView.swift; sourceTree = "<group>"; };
+		F8591F5B1D551EAF00011562 /* CoverView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoverView.swift; sourceTree = "<group>"; };
+		F8591F5C1D551EAF00011562 /* DemoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DemoViewController.swift; sourceTree = "<group>"; };
+		F8591F5D1D551EAF00011562 /* DirectManipulationGestureRecognizer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DirectManipulationGestureRecognizer.swift; sourceTree = "<group>"; };
+		F8591F5E1D551EAF00011562 /* ServicesController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ServicesController.swift; sourceTree = "<group>"; };
+		F8591F5F1D551EAF00011562 /* SimpleTransform.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SimpleTransform.swift; sourceTree = "<group>"; };
 		F8A78B231CCBD5B900CCC24B /* SplashCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SplashCell.swift; sourceTree = "<group>"; };
-		F9729913FF505C1776421BF3 /* Pods-woven.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-woven.release.xcconfig"; path = "Pods/Target Support Files/Pods-woven/Pods-woven.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,7 +92,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AD9ED4863D28F4F6C1CA83B0 /* Pods_woven.framework in Frameworks */,
+				42B3A8FFB6319631797BADBF /* Pods_woven.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,6 +100,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E0B3E9AABA849DA8B2175FCC /* Pods_wovenTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +108,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D9F489F58FA2A3F4C43F2378 /* Pods_wovenUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -94,8 +122,8 @@
 				1FEF13391C825BA100E4AE54 /* wovenTests */,
 				1FEF13441C825BA100E4AE54 /* wovenUITests */,
 				1FEF13231C825BA100E4AE54 /* Products */,
-				50826693BB3D8FF6C3183944 /* Pods */,
-				D4CC15F130519758075612D7 /* Frameworks */,
+				2CEA7C1B421C8B15BF888198 /* Pods */,
+				4163E452FB3AE1531E976F6F /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -156,6 +184,14 @@
 				1FEF13571C825DEC00E4AE54 /* SplashController.swift */,
 				F8A78B231CCBD5B900CCC24B /* SplashCell.swift */,
 				1FEF135D1C838C6D00E4AE54 /* AudioController.swift */,
+				F8591F5B1D551EAF00011562 /* CoverView.swift */,
+				F8591F5A1D551EAF00011562 /* BrowserView.swift */,
+				F8591F5C1D551EAF00011562 /* DemoViewController.swift */,
+				F8591F5E1D551EAF00011562 /* ServicesController.swift */,
+				F8591F581D551E3000011562 /* CardsController.swift */,
+				F828E6091D5526FE00A3333B /* MeditationsController.swift */,
+				F828E60B1D55292400A3333B /* AudioFilesDataSource.swift */,
+				F828E6081D5524EE00A3333B /* Transforms */,
 			);
 			name = Controller;
 			sourceTree = "<group>";
@@ -168,21 +204,36 @@
 			name = Audio;
 			sourceTree = "<group>";
 		};
-		50826693BB3D8FF6C3183944 /* Pods */ = {
+		2CEA7C1B421C8B15BF888198 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				B88D25416BCE460378937B0E /* Pods-woven.debug.xcconfig */,
-				F9729913FF505C1776421BF3 /* Pods-woven.release.xcconfig */,
+				AAA8ECDE0E5A3E8DA0CD068A /* Pods-woven.debug.xcconfig */,
+				DAE5E18792029649B7889A29 /* Pods-woven.release.xcconfig */,
+				0EF3E77886E9B37C01673FF3 /* Pods-wovenTests.debug.xcconfig */,
+				CD10CAE4BC2ECBE84E746D09 /* Pods-wovenTests.release.xcconfig */,
+				93D0E0E9EE987DDC55EDB416 /* Pods-wovenUITests.debug.xcconfig */,
+				2D84B54EF2F16E0044CD0846 /* Pods-wovenUITests.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
 		};
-		D4CC15F130519758075612D7 /* Frameworks */ = {
+		4163E452FB3AE1531E976F6F /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				E49D37C1AFC3535BBAE6A181 /* Pods_woven.framework */,
+				A19D5F34C03C02F8FDB09A43 /* Pods_woven.framework */,
+				35C844DF960D09DFA1E5AAE1 /* Pods_wovenTests.framework */,
+				768C0A5A8F256F3E3CE8490A /* Pods_wovenUITests.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F828E6081D5524EE00A3333B /* Transforms */ = {
+			isa = PBXGroup;
+			children = (
+				F8591F5D1D551EAF00011562 /* DirectManipulationGestureRecognizer.swift */,
+				F8591F5F1D551EAF00011562 /* SimpleTransform.swift */,
+			);
+			name = Transforms;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -192,12 +243,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1FEF134A1C825BA100E4AE54 /* Build configuration list for PBXNativeTarget "woven" */;
 			buildPhases = (
-				53C1DB3B3D3AC77F0679948F /* Check Pods Manifest.lock */,
+				C270005727D543DA481B9D03 /* [CP] Check Pods Manifest.lock */,
 				1FEF131E1C825BA100E4AE54 /* Sources */,
 				1FEF131F1C825BA100E4AE54 /* Frameworks */,
 				1FEF13201C825BA100E4AE54 /* Resources */,
-				F19B4F0A6A16DEFF0F865CB3 /* Embed Pods Frameworks */,
-				F06B8011EE371DDBC5FDFA46 /* Copy Pods Resources */,
+				A6025D372188DE463006CF0E /* [CP] Embed Pods Frameworks */,
+				493D57D72C2E394DB7E5FD51 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -212,9 +263,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1FEF134D1C825BA100E4AE54 /* Build configuration list for PBXNativeTarget "wovenTests" */;
 			buildPhases = (
+				80C08F2F085D1E87D95FFE0C /* [CP] Check Pods Manifest.lock */,
 				1FEF13321C825BA100E4AE54 /* Sources */,
 				1FEF13331C825BA100E4AE54 /* Frameworks */,
 				1FEF13341C825BA100E4AE54 /* Resources */,
+				1ABDE13AF874A3EA22AB9DF4 /* [CP] Embed Pods Frameworks */,
+				94A1CD37FA805F70066FF3DE /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -230,9 +284,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1FEF13501C825BA100E4AE54 /* Build configuration list for PBXNativeTarget "wovenUITests" */;
 			buildPhases = (
+				BB726CD119D35F825D248595 /* [CP] Check Pods Manifest.lock */,
 				1FEF133D1C825BA100E4AE54 /* Sources */,
 				1FEF133E1C825BA100E4AE54 /* Frameworks */,
 				1FEF133F1C825BA100E4AE54 /* Resources */,
+				7E2C0C1EC867AFC70987D778 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -251,7 +307,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0720;
-				LastUpgradeCheck = 0720;
+				LastUpgradeCheck = 0800;
 				TargetAttributes = {
 					1FEF13211C825BA100E4AE54 = {
 						CreatedOnToolsVersion = 7.2.1;
@@ -321,29 +377,29 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		53C1DB3B3D3AC77F0679948F /* Check Pods Manifest.lock */ = {
+		1ABDE13AF874A3EA22AB9DF4 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "Check Pods Manifest.lock";
+			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-wovenTests/Pods-wovenTests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		F06B8011EE371DDBC5FDFA46 /* Copy Pods Resources */ = {
+		493D57D72C2E394DB7E5FD51 /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "Copy Pods Resources";
+			name = "[CP] Copy Pods Resources";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -351,19 +407,94 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-woven/Pods-woven-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		F19B4F0A6A16DEFF0F865CB3 /* Embed Pods Frameworks */ = {
+		7E2C0C1EC867AFC70987D778 /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "Embed Pods Frameworks";
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-wovenUITests/Pods-wovenUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		80C08F2F085D1E87D95FFE0C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		94A1CD37FA805F70066FF3DE /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-wovenTests/Pods-wovenTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A6025D372188DE463006CF0E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-woven/Pods-woven-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BB726CD119D35F825D248595 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		C270005727D543DA481B9D03 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -375,9 +506,18 @@
 			files = (
 				1FEF13261C825BA100E4AE54 /* AppDelegate.swift in Sources */,
 				1FEF13581C825DEC00E4AE54 /* SplashController.swift in Sources */,
+				F8591F601D551EAF00011562 /* BrowserView.swift in Sources */,
+				F8591F621D551EAF00011562 /* DemoViewController.swift in Sources */,
+				F8591F591D551E3000011562 /* CardsController.swift in Sources */,
+				F8591F611D551EAF00011562 /* CoverView.swift in Sources */,
+				F8591F651D551EAF00011562 /* SimpleTransform.swift in Sources */,
 				1FEF135E1C838C6D00E4AE54 /* AudioController.swift in Sources */,
 				1FEF135A1C8272A700E4AE54 /* Woven-Kern.swift in Sources */,
 				F8A78B241CCBD5B900CCC24B /* SplashCell.swift in Sources */,
+				F8591F641D551EAF00011562 /* ServicesController.swift in Sources */,
+				F828E60C1D55292400A3333B /* AudioFilesDataSource.swift in Sources */,
+				F828E60A1D5526FE00A3333B /* MeditationsController.swift in Sources */,
+				F8591F631D551EAF00011562 /* DirectManipulationGestureRecognizer.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -445,8 +585,10 @@
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
@@ -473,6 +615,7 @@
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 2.3;
 			};
 			name = Debug;
 		};
@@ -489,8 +632,10 @@
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
@@ -509,14 +654,16 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
+				SWIFT_VERSION = 2.3;
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
 		};
 		1FEF134B1C825BA100E4AE54 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = B88D25416BCE460378937B0E /* Pods-woven.debug.xcconfig */;
+			baseConfigurationReference = AAA8ECDE0E5A3E8DA0CD068A /* Pods-woven.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
@@ -525,13 +672,15 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.jacksonfall.woven;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
+				SWIFT_VERSION = 2.3;
 			};
 			name = Debug;
 		};
 		1FEF134C1C825BA100E4AE54 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = F9729913FF505C1776421BF3 /* Pods-woven.release.xcconfig */;
+			baseConfigurationReference = DAE5E18792029649B7889A29 /* Pods-woven.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
@@ -540,11 +689,14 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.jacksonfall.woven;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 2.3;
 			};
 			name = Release;
 		};
 		1FEF134E1C825BA100E4AE54 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0EF3E77886E9B37C01673FF3 /* Pods-wovenTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = wovenTests/Info.plist;
@@ -557,18 +709,21 @@
 		};
 		1FEF134F1C825BA100E4AE54 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CD10CAE4BC2ECBE84E746D09 /* Pods-wovenTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = wovenTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.jacksonfall.wovenTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/woven.app/woven";
 			};
 			name = Release;
 		};
 		1FEF13511C825BA100E4AE54 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 93D0E0E9EE987DDC55EDB416 /* Pods-wovenUITests.debug.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = wovenUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -581,11 +736,13 @@
 		};
 		1FEF13521C825BA100E4AE54 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2D84B54EF2F16E0044CD0846 /* Pods-wovenUITests.release.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = wovenUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.jacksonfall.wovenUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				TEST_TARGET_NAME = woven;
 				USES_XCTRUNNER = YES;
 			};
